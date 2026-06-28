@@ -2589,9 +2589,6 @@ export default function App() {
                   </div>
 
                   <div>
-                    <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-zinc-500 mb-1" htmlFor="priority">
-                      Priority
-                    </label>
                     <CustomSelect
                       label="Priority"
                       value={formPriority}
@@ -2605,9 +2602,6 @@ export default function App() {
                   </div>
 
                   <div>
-                    <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-zinc-550 mb-1" htmlFor="storyPoints">
-                      Story Points
-                    </label>
                     <CustomSelect
                       label="Story Points"
                       value={formStoryPoints}
@@ -2620,9 +2614,6 @@ export default function App() {
                 {/* Status & Project */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-zinc-500 mb-1" htmlFor="status">
-                      Status
-                    </label>
                     <CustomSelect
                       label="Status"
                       value={formStatus}
@@ -2636,9 +2627,6 @@ export default function App() {
                   </div>
 
                   <div>
-                    <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-zinc-500 mb-1" htmlFor="project">
-                      Project
-                    </label>
                     <CustomSelect
                       label="Project"
                       value={formProject}
@@ -2653,9 +2641,6 @@ export default function App() {
 
                 {/* Assignee Selection dropdown */}
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-zinc-500 mb-1" htmlFor="assignee">
-                    Assignee
-                  </label>
                   <AssigneeSelect
                     label="Assignee"
                     value={formAssignee}
