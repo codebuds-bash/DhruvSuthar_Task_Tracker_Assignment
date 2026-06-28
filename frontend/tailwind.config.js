@@ -75,16 +75,16 @@ export default {
         "base": "4px"
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
-        "headline-md": ["Inter"],
-        "body-sm": ["Inter"],
-        "body-lg": ["Inter"],
-        "label-sm": ["Inter"],
-        "body-md": ["Inter"],
-        "label-md": ["Inter"],
-        "display-lg": ["Inter"],
-        "headline-lg-mobile": ["Inter"],
-        "headline-lg": ["Inter"]
+        sans: ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"],
+        "headline-md": ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "sans-serif"],
+        "body-sm": ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "sans-serif"],
+        "body-lg": ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "sans-serif"],
+        "label-sm": ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "sans-serif"],
+        "body-md": ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "sans-serif"],
+        "label-md": ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "sans-serif"],
+        "display-lg": ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "sans-serif"],
+        "headline-lg-mobile": ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "sans-serif"],
+        "headline-lg": ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Segoe UI", "Roboto", "sans-serif"]
       },
       fontSize: {
         "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
