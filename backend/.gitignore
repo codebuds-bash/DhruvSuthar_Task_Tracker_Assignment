@@ -1,0 +1,82 @@
+# ====================================================================
+# 1. Environment Variables & Secrets (CRITICAL SECURITY)
+# ====================================================================
+.env
+.env.local
+.env.*.local
+*.env
+config/local.json
+secrets/
+*.pem
+*.key
+
+# ====================================================================
+# 2. Dependencies & Package Managers (Language Specific)
+# ====================================================================
+# Node.js / TypeScript
+node_modules/
+jspm_packages/
+.npm/
+.yarn-clean
+.pnp.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Java / Kotlin
+.gradle/
+build/
+target/
+*.class
+
+# Go / Rust
+/bin/
+/dist/
+debug/
+target/
+
+# ====================================================================
+# 3. Logs, Databases, and Runtime Storage
+# ====================================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local SQLite databases or Docker volumes
+*.db
+*.sqlite
+*.sqlite3
+.docker/volumes/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ====================================================================
+# 4. OS & IDE Settings (System Specific)
+# ====================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDEs (VS Code, WebStorm, IntelliJ)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
